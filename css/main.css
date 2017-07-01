@@ -1,7 +1,9 @@
 *{
   font-family: 'Indie Flower', cursive;
-    color:#966a2f;
-}
+  border:1px solid  red;
+  color:#e6ebef;
+  font-size: 20px;
+  }
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
 /* zocial */
@@ -10,11 +12,14 @@
     padding:10%;
       font-size: 25px;
       width:100vw;
+      color: #e6ebef;
 }
-body{
-  background-color: #e7dfce;
-}
-
+.back{
+  background-image: image("images/portfolio.jpg");
+  }
+  .cont{
+    background-color: #313131;
+  }
 .header{
   display: flex;
   width:100%;
@@ -22,39 +27,48 @@ margin-top:0px;
 }
 .logo{
   flex:left;
-  width:20%;
-  text-align: center;
+  width:25%;
+  }
+  .ninja{
+    width:100px;
+    height:100px;
+    padding-top: 15px;
+    padding-left: 0px;
   }
 .title{
-  font-family: 'Pacifico', cursive;
+  font-family: 'Bellefair', serif;
   text-align: right;
-  width:80%;
+  width:75%;
   flex: right;
-}
+  }
+  .sub-title{
+    text-shadow: 3px 3px 3px #aaa;
+  }
 hr{
-  background-color:#966a2f;
+  background-color:#e7dfce;
 }
 #banner{
   text-align: center;
-  max-width: 100vw;
-}
-.other_headings{
-
+  max-width: 100%;
 }
 .featured-works{
   display:flex;
   width:100%;
 }
 .projects{
-  padding: 3px;
-    }
+    width:100%;
+    border: 1px solid;
+    border-radius: 20px;
+  }
 .cards{
   border-style: outset;
-  border-radius: 5px;
-  border-color: #966a2f;
-  background-color: #e7dfce;
-}
+  border-radius: 20px;
+  border-color: #e7dfce;
+  background-color: #313131;
+  }
 .share{
   display:flex;
-  
+}
+.footer{
+  text-align: center;
 }
